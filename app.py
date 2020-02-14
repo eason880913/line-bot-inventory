@@ -183,7 +183,7 @@ def handle_message(event):
             sum_num += int(data_record[0][0])*l[1]
         User_ID = TextSendMessage(text=sum_num)
         line_bot_api.reply_message(event.reply_token, User_ID)
-    '''
+    
     if '滾' == msg:
         User_ID = TextSendMessage(text = "滾去你旁邊～可以嗎\udbc0\udc8a")
         line_bot_api.reply_message(event.reply_token, User_ID)
@@ -214,7 +214,7 @@ def handle_message(event):
     if '我最美' == msg:
         User_ID = TextSendMessage(text = "天母說謊怪\udbc0\udc0d")
         line_bot_api.reply_message(event.reply_token, User_ID)
-    '''    
+        
 
 
 
